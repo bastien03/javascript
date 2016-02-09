@@ -7,7 +7,7 @@ module.exports = function(config) {
     frameworks: ['jasmine'],
     files: [ 
         'js/**/*.js',
-        'spec/**/*.js',
+        'spec/*.js'
     ],
     exclude: [],
     preprocessors: {},
@@ -16,7 +16,7 @@ module.exports = function(config) {
     colors: true,
     logLevel: config.LOG_INFO,
     autoWatch: true,
-    browsers: ['Chrome'],
+    browsers: ['Firefox', 'Chrome'],
     singleRun: false
   });
 };
