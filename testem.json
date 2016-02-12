@@ -1,0 +1,7 @@
+{
+  "src_files": [
+    "js/**/*.js",
+    "spec/**/*.js"
+  ],
+  "src_files_ignore": "karma.conf.js"
+}

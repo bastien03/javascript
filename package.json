@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "karma": "./node_modules/karma/bin/karma start",
+    "testem": "node_modules/testem/testem.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
     "karma-chrome-launcher": "^0.2.2",
     "karma-firefox-launcher": "^0.1.7",
     "karma-jasmine": "^0.3.7",
-    "karma-jasmine-diff-reporter": "^0.3.4"
+    "karma-jasmine-diff-reporter": "^0.3.4",
+    "testem": "^1.2.2"
   }
 }
