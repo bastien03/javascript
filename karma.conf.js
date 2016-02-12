@@ -7,11 +7,11 @@ module.exports = function(config) {
     frameworks: ['jasmine'],
     files: [ 
         'js/**/*.js',
-        'spec/*.js'
+        'spec/*-jasmine.js'
     ],
     exclude: [],
     preprocessors: {},
-    reporters: ['progress'],
+    reporters: ['jasmine-diff', 'progress'],
     port: 9876,
     colors: true,
     logLevel: config.LOG_INFO,
